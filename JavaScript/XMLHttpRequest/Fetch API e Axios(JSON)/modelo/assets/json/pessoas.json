@@ -1,0 +1,302 @@
+[
+  {
+    "nome": "Ana Silva",
+    "email": "ana.silva@email.com",
+    "salario": 4500.50,
+    "estado": "SP",
+    "empresa": "Tech Solutions",
+    "idade": 28,
+    "sexo": "F",
+    "cpf": "123.456.789-00"
+  },
+  {
+    "nome": "Carlos Oliveira",
+    "email": "carlos.oliveira@email.com",
+    "salario": 5200.00,
+    "estado": "RJ",
+    "empresa": "Inova Corp",
+    "idade": 32,
+    "sexo": "M",
+    "cpf": "234.567.890-11"
+  },
+  {
+    "nome": "Mariana Santos",
+    "email": "mariana.santos@email.com",
+    "salario": 3800.75,
+    "estado": "MG",
+    "empresa": "Global Tech",
+    "idade": 25,
+    "sexo": "F",
+    "cpf": "345.678.901-22"
+  },
+  {
+    "nome": "João Pereira",
+    "email": "joao.pereira@email.com",
+    "salario": 6100.25,
+    "estado": "RS",
+    "empresa": "Data Systems",
+    "idade": 35,
+    "sexo": "M",
+    "cpf": "456.789.012-33"
+  },
+  {
+    "nome": "Fernanda Lima",
+    "email": "fernanda.lima@email.com",
+    "salario": 4200.00,
+    "estado": "SC",
+    "empresa": "Web Solutions",
+    "idade": 29,
+    "sexo": "F",
+    "cpf": "567.890.123-44"
+  },
+  {
+    "nome": "Ricardo Alves",
+    "email": "ricardo.alves@email.com",
+    "salario": 5500.80,
+    "estado": "PR",
+    "empresa": "Cloud Tech",
+    "idade": 31,
+    "sexo": "M",
+    "cpf": "678.901.234-55"
+  },
+  {
+    "nome": "Juliana Costa",
+    "email": "juliana.costa@email.com",
+    "salario": 4800.40,
+    "estado": "BA",
+    "empresa": "Digital Mind",
+    "idade": 27,
+    "sexo": "F",
+    "cpf": "789.012.345-66"
+  },
+  {
+    "nome": "Pedro Souza",
+    "email": "pedro.souza@email.com",
+    "salario": 6700.00,
+    "estado": "PE",
+    "empresa": "Future Systems",
+    "idade": 38,
+    "sexo": "M",
+    "cpf": "890.123.456-77"
+  },
+  {
+    "nome": "Amanda Rodrigues",
+    "email": "amanda.rodrigues@email.com",
+    "salario": 3900.90,
+    "estado": "CE",
+    "empresa": "Tech Vision",
+    "idade": 24,
+    "sexo": "F",
+    "cpf": "901.234.567-88"
+  },
+  {
+    "nome": "Bruno Martins",
+    "email": "bruno.martins@email.com",
+    "salario": 5300.60,
+    "estado": "GO",
+    "empresa": "Innovation Labs",
+    "idade": 33,
+    "sexo": "M",
+    "cpf": "012.345.678-99"
+  },
+  {
+    "nome": "Patrícia Nunes",
+    "email": "patricia.nunes@email.com",
+    "salario": 4400.30,
+    "estado": "MT",
+    "empresa": "Smart Solutions",
+    "idade": 26,
+    "sexo": "F",
+    "cpf": "111.222.333-44"
+  },
+  {
+    "nome": "Lucas Ferreira",
+    "email": "lucas.ferreira@email.com",
+    "salario": 5900.70,
+    "estado": "MS",
+    "empresa": "Tech Bridge",
+    "idade": 34,
+    "sexo": "M",
+    "cpf": "222.333.444-55"
+  },
+  {
+    "nome": "Tatiane Almeida",
+    "email": "tatiane.almeida@email.com",
+    "salario": 4100.20,
+    "estado": "ES",
+    "empresa": "Digital Wave",
+    "idade": 28,
+    "sexo": "F",
+    "cpf": "333.444.555-66"
+  },
+  {
+    "nome": "Rafael Barbosa",
+    "email": "rafael.barbosa@email.com",
+    "salario": 6300.45,
+    "estado": "PA",
+    "empresa": "Next Gen",
+    "idade": 36,
+    "sexo": "M",
+    "cpf": "444.555.666-77"
+  },
+  {
+    "nome": "Vanessa Cardoso",
+    "email": "vanessa.cardoso@email.com",
+    "salario": 4600.85,
+    "estado": "AM",
+    "empresa": "Tech Frontier",
+    "idade": 30,
+    "sexo": "F",
+    "cpf": "555.666.777-88"
+  },
+  {
+    "nome": "Diego Ramos",
+    "email": "diego.ramos@email.com",
+    "salario": 5700.15,
+    "estado": "DF",
+    "empresa": "Code Masters",
+    "idade": 32,
+    "sexo": "M",
+    "cpf": "666.777.888-99"
+  },
+  {
+    "nome": "Camila Torres",
+    "email": "camila.torres@email.com",
+    "salario": 4000.50,
+    "estado": "RN",
+    "empresa": "Web Innovate",
+    "idade": 25,
+    "sexo": "F",
+    "cpf": "777.888.999-00"
+  },
+  {
+    "nome": "Felipe Mendes",
+    "email": "felipe.mendes@email.com",
+    "salario": 6500.35,
+    "estado": "SE",
+    "empresa": "Data Flow",
+    "idade": 37,
+    "sexo": "M",
+    "cpf": "888.999.000-11"
+  },
+  {
+    "nome": "Larissa Duarte",
+    "email": "larissa.duarte@email.com",
+    "salario": 4300.65,
+    "estado": "AL",
+    "empresa": "Tech Pulse",
+    "idade": 29,
+    "sexo": "F",
+    "cpf": "999.000.111-22"
+  },
+  {
+    "nome": "André Castro",
+    "email": "andre.castro@email.com",
+    "salario": 5400.95,
+    "estado": "PB",
+    "empresa": "Digital Core",
+    "idade": 31,
+    "sexo": "M",
+    "cpf": "000.111.222-33"
+  },
+  {
+    "nome": "Simone Rocha",
+    "email": "simone.rocha@email.com",
+    "salario": 4700.25,
+    "estado": "PI",
+    "empresa": "Tech Vision",
+    "idade": 27,
+    "sexo": "F",
+    "cpf": "111.222.333-44"
+  },
+  {
+    "nome": "Gustavo Lopes",
+    "email": "gustavo.lopes@email.com",
+    "salario": 6200.80,
+    "estado": "MA",
+    "empresa": "Innovation Hub",
+    "idade": 35,
+    "sexo": "M",
+    "cpf": "222.333.444-55"
+  },
+  {
+    "nome": "Daniela Moreira",
+    "email": "daniela.moreira@email.com",
+    "salario": 3850.40,
+    "estado": "TO",
+    "empresa": "Cloud Systems",
+    "idade": 23,
+    "sexo": "F",
+    "cpf": "333.444.555-66"
+  },
+  {
+    "nome": "Marcos Santos",
+    "email": "marcos.santos@email.com",
+    "salario": 5800.60,
+    "estado": "RO",
+    "empresa": "Future Tech",
+    "idade": 33,
+    "sexo": "M",
+    "cpf": "444.555.666-77"
+  },
+  {
+    "nome": "Isabela Fernandes",
+    "email": "isabela.fernandes@email.com",
+    "salario": 4950.75,
+    "estado": "AC",
+    "empresa": "Digital Path",
+    "idade": 26,
+    "sexo": "F",
+    "cpf": "555.666.777-88"
+  },
+  {
+    "nome": "Roberto Lima",
+    "email": "roberto.lima@email.com",
+    "salario": 7100.20,
+    "estado": "RR",
+    "empresa": "Tech Advance",
+    "idade": 40,
+    "sexo": "M",
+    "cpf": "666.777.888-99"
+  },
+  {
+    "nome": "Cristina Souza",
+    "email": "cristina.souza@email.com",
+    "salario": 4250.90,
+    "estado": "AP",
+    "empresa": "Web Systems",
+    "idade": 28,
+    "sexo": "F",
+    "cpf": "777.888.999-00"
+  },
+  {
+    "nome": "Leonardo Dias",
+    "email": "leonardo.dias@email.com",
+    "salario": 5600.30,
+    "estado": "SP",
+    "empresa": "Data Pro",
+    "idade": 32,
+    "sexo": "M",
+    "cpf": "888.999.000-11"
+  },
+  {
+    "nome": "Beatriz Cruz",
+    "email": "beatriz.cruz@email.com",
+    "salario": 4050.45,
+    "estado": "RJ",
+    "empresa": "Tech Solutions",
+    "idade": 24,
+    "sexo": "F",
+    "cpf": "999.000.111-22"
+  },
+  {
+    "nome": "Sérgio Moura",
+    "email": "sergio.moura@email.com",
+    "salario": 6800.85,
+    "estado": "MG",
+    "empresa": "Inova Corp",
+    "idade": 39,
+    "sexo": "M",
+    "cpf": "000.111.222-33"
+  }
+]

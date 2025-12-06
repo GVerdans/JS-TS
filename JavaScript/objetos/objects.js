@@ -1,0 +1,33 @@
+// ********************
+// Declarando Objetos
+// ********************
+
+// Explicita
+const pessoa1 = {
+    nome: 'Gabriel', // Chave -> nome, Valor -> Gabriel
+    sobrenome: 'Verdan',
+};
+// Funcao Construtora
+function Pessoa(nome, sobrenome){
+    this.nome = nome;
+    this.sobrenome = sobrenome;
+
+    // Aqui eu congelo o objeto. Logo não é possível fazer nenhuma alteração nas chaves e valores.
+    // Object.freeze(this);
+}
+
+const pessoa2 = new Object;
+
+// ********************
+// Chamando os Objetos
+// ********************
+
+pessoa2.nome = 'Andre';
+pessoa2.sobrenome = 'Verdan';
+
+const p3 = new Pessoa('Nina', 'Verdan');
+
+
+console.log(`${pessoa1.nome} ${pessoa1.sobrenome}`);
+console.log(`${pessoa2.nome} ${pessoa2.sobrenome}`);
+console.log(`${p3.nome} ${p3.sobrenome}`);

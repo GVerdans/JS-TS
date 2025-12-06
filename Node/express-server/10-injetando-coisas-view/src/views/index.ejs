@@ -1,0 +1,21 @@
+<%- include('./includes/header') %>
+
+    <body class="bg-dark text-primary text-center">
+        <div class="container bg-light rounded p-5 mt-5">
+            <h1 class="fw-bold">
+
+                <% if(typeof title !=='undefined' ){ %>
+                    <%= title %> <br>
+                        <% } else { %>
+                            O titulo nao foi enviado !
+                            <% } %>
+
+                                Array:
+                                <% numeros.forEach(element=> { %>
+                                    <%= element, %>
+                                        <% }) %>
+            </h1>
+        </div>
+
+
+        <%- include('./includes/footer') %>

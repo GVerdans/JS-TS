@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Password Generator !</title>
+</head>
+
+<body class="container bg-dark text-light">
+    <section class="bg-light text-dark rounded p-3 mt-5">
+        <h1 class="text-center">Password Generator</h1>
+        <div class="senha text-center fw-bold text-primary fs-3 my-3">Select Some Option !</div>
+
+        <div class="container">
+            <div class="input-group d-block mb-3 w-50">
+                <label for="qtd-caracteres">Number of Characters: </label>
+                <input type="number" class="form-control w-25" name="qtd-caracteres">
+            </div>
+
+            <div class="form-check form-check-inline form-check-reverse">
+                <label class="form-check-label" for="inlineCheckbox1">Add Numbers</label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="addNumbers">
+            </div>
+
+            <div class="form-check form-check-inline form-check-reverse">
+                <label class="form-check-label" for="inlineCheckbox1">Add Uppercase</label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="addUpperCase">
+            </div>
+
+            <div class="form-check form-check-inline form-check-reverse">
+                <label class="form-check-label" for="inlineCheckbox1">Add Lowercase</label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="addLowerCase">
+            </div>
+
+            <div class="form-check form-check-inline form-check-reverse">
+                <label class="form-check-label" for="inlineCheckbox1">Add Special Characters</label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="addSymbols">
+            </div>
+
+            <div class="container text-center mt-4">
+                <input type="submit" value="Submit" class="btn btn-outline-primary submit-btn">
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>

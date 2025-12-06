@@ -1,0 +1,30 @@
+<%- include('./includes/header') %>
+
+    <body class="bg-dark text-primary text-center">
+        <div class="container bg-light rounded p-5 mt-5">
+            <h1 class="fw-bold">
+
+                <% if(typeof title !=='undefined' ){ %>
+                    <%= title %> <br>
+                        <% } else { %>
+                            O titulo nao foi enviado !
+                            <% } %>
+
+                                Array:
+                                <% numeros.forEach(element=> { %>
+                                    <%= element, %>
+                                        <% }) %>
+            </h1>
+
+            <h1><%= umaVariavelLocal %></h1>
+
+            <form action="/" method="post">
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                <label for="cliente">Cliente :</label>
+                <input type="text" name="cliente">
+                <button>Submit</button>
+            </form>
+        </div>
+
+
+        <%- include('./includes/footer') %>
