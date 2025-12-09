@@ -18,15 +18,15 @@
                             <h4>Register</h4>
                             <p>Don't have an account ? Signup Here !</p>
 
-                            <form action="/login/register" method="post">
+                            <form class="form-cadastro" action="/login/register" method="post">
                                 <input type="hidden" name="_csrf" value="<%= csrfToken %>">
                                 <div class="form-group mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" name="registerInputEmail">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control input-email-register" name="email">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" name="registerInputPswd">
+                                    <label for="pswd" class="form-label">Password</label>
+                                    <input type="password" class="form-control input-pswd-register" name="pswd">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Register</button>
                             </form>
@@ -37,16 +37,16 @@
                             <h4>Login</h4>
                             <p>Have an accout ? Login Here !</p>
 
-                            <form action="/login/login" method="post">
+                            <form class="form-login" action="/login/login" method="post">
                                 <input type="hidden" name="_csrf" value="<%= csrfToken %>">
 
                                 <div class="form-group mb-3">
-                                    <label for="signupInputEmail" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" name="signupInputEmail">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" name="email">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <label for="signupInputPswd" class="form-label">Password</label>
-                                    <input type="password" class="form-control" name="signupInputPswd">
+                                    <label for="pswd" class="form-label">Password</label>
+                                    <input type="password" class="form-control" name="pswd">
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Login</button>

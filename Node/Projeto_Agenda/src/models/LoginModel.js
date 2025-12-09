@@ -67,8 +67,8 @@ class Login {
         }
 
         this.body = {
-            email: this.body.registerInputEmail || this.body.signupInputEmail,
-            pswd: this.body.registerInputPswd || this.body.signupInputPswd
+            email: this.body.email,
+            pswd: this.body.pswd
         }
     }
 }
