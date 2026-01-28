@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsu API - Test</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="dark dark:bg-gray-800 text-gray-400">
+    <div>
+        <p class="text-center">Rota /Kitsu</p>
+    </div>
+    <% if(dados) { %>
+        <div class="flex">
+
+            <% dados.forEach(element=> { %>
+                <div class="w-1/2 border-2 border-solid rounded-lg content-around h-64">
+                    <ul class="list-none">
+                        <li class="w-auto text-sm text-center my-2">
+                            <%= element.title %>
+                        </li>
+                        <li class="flex justify-center mb-2">
+                            <img src="<%= element.image %>" alt="poster_from_<%= element.title %>">
+                        </li>
+                    </ul>
+                </div>
+                <% }); %>
+
+                    <% } %>
+        </div>
+
+</body>
+
+</html>
