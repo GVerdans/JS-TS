@@ -6,9 +6,8 @@ const weatherInstance = new weatherModel();
 exports.list = async (req, res) => {
     try {
         const response = await weatherInstance.getWeather({
-            q: "brazil,br",
-            lat: "-22.91",
-            long: "-43.36",
+            lat: -22.9107,
+            lon: -43.3605,
             appid: process.env.API_KEY_WEATHER,
             units: "metric",
             lang: "pt_br",
@@ -18,6 +17,7 @@ exports.list = async (req, res) => {
             response,
         });
     } catch (e) {
+        console.log(e.response?.data);
         res.status(500).json(e);
     }
 };
